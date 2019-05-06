@@ -37,7 +37,7 @@ public class Product {
 	private BigDecimal price;
 	
 	@NotNull(message="Este campo no puede estar vacio")
-	@DateTimeFormat(pattern="dd/MM/yyyy",style="Utilizar el formato adecuado")
+	@DateTimeFormat(pattern="dd/MM/yyyy")
 	private Date expire_date;
 	
 	
